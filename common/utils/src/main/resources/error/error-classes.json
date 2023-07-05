@@ -1786,6 +1786,11 @@
       "Cannot call function <functionName> because named argument references are not enabled here. In this case, the named argument reference was <argument>. Set \"spark.sql.allowNamedFunctionArguments\" to \"true\" to turn on feature."
     ]
   },
+  "NEGATIVE_FREQUENCY_EXPRESSION" : {
+    "message" : [
+      "Negative values found in <frequencyExpression>. Frequency must be a positive integral number."
+    ]
+  },
   "NESTED_AGGREGATE_FUNCTION" : {
     "message" : [
       "It is not allowed to use an aggregate function in the argument of another aggregate function. Please use the inner aggregate function in a sub-query."
@@ -4444,11 +4449,6 @@
   "_LEGACY_ERROR_TEMP_2011" : {
     "message" : [
       "Unexpected data type <dataType>."
-    ]
-  },
-  "_LEGACY_ERROR_TEMP_2013" : {
-    "message" : [
-      "Negative values found in <frequencyExpression>"
     ]
   },
   "_LEGACY_ERROR_TEMP_2015" : {
